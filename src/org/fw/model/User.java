@@ -2,6 +2,8 @@ package org.fw.model;
 
 public class User {
     
+    private String name;
+    
     public String getName() {
         return name;
     }
@@ -10,6 +12,6 @@ public class User {
         this.name = name;
     }
 
-    private String name;
+
 
 }
